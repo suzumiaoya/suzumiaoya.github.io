@@ -1,9 +1,11 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+花露水煮鱼的个人博客，基于 [Fuwari](https://github.com/saicaca/fuwari) 模板构建。
 
-::github{repo="saicaca/fuwari"}
+::github{repo="suzumiaoya/suzumiaoya.github.io"}
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+> ### 关于我
+> 北方某酒吧舞工科生，Computer Science本科在读
+> 
+> 发点学习笔记，以及一些生活碎片
+> 
+> 感谢你的视奸

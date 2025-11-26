@@ -46,6 +46,17 @@ export type NavBarLink = {
 	external?: boolean;
 };
 
+export interface NavBarConfig {
+	links: (
+		| NavBarLink
+		| {
+				name: string;
+				url: string;
+				icon?: string; // 根据你的配置，可能还有 icon 字段
+		  }
+	)[];
+}
+
 export const navBarConfig: NavBarConfig = {
 	links: [
 		{

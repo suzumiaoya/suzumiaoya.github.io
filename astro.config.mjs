@@ -56,6 +56,18 @@ export default defineConfig({
 			},
 		}),
 		expressiveCode({
+			langs: [
+				"c",
+				"cpp",
+				"js",
+				"ts",
+				"json",
+				"bash",
+				"yaml",
+				"html",
+				"css",
+				"md",
+			],
 			themes: [expressiveCodeConfig.theme, expressiveCodeConfig.theme],
 			plugins: [
 				pluginCollapsibleSections(),

@@ -46,8 +46,15 @@ export type NavBarLink = {
 	external?: boolean;
 };
 
-export type NavBarConfig = {
-	links: (NavBarLink | LinkPreset)[];
+export const navBarConfig: NavBarConfig = {
+	links: [
+		{
+			name: "Home",
+			url: "/home", // <--- 把原本的 '/' 改成 '/home'
+			icon: "...",
+		},
+		// ...
+	],
 };
 
 export type ProfileConfig = {

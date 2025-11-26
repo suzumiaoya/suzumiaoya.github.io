@@ -230,14 +230,14 @@ const homePath = `${base}/home/`;
         if (canvas) {
             // @ts-ignore
             const ctx = canvas.getContext('2d');
-            let w, h;
+            let w: number, h: number;
             const resize = () => { w = window.innerWidth; h = window.innerHeight; 
             // @ts-ignore
             canvas.width = w; canvas.height = h; };
             window.addEventListener('resize', resize);
             resize();
 
-            const getVarColor = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+            const getVarColor = (name: string) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 
             const satellites = [
                 { r: 0.25, angle: 0, speed: 0.0004, colorName: '--retro-red', size: 4 },
